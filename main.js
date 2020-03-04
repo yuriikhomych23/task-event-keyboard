@@ -1,11 +1,15 @@
-let getSel = x => document.querySelector(x);
+let button = document.querySelectorAll('button')
 
 
-getSel('.f1').onmousedown = function() {
+button.onclick = function() {
     this.style.backgroundColor = 'black';
     this.style.color = 'silver';
  }
- getSel('.f1').onmouseup = function() {
-    this.style.backgroundColor = '';
-    this.style.color = '';
- }
+
+
+
+
+//  buttons.onmouseup = function() {
+//     this.style.backgroundColor = '';
+//     this.style.color = '';
+//  }
