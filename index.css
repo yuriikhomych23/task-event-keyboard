@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: silver;
+
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.field {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+.first__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.f1 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.f2 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+
+}
+.f3 {
+   height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+
+}
+.f4 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+
+}
+.f5 {
+   height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+
+}
+.f6 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+
+}
+.f7 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+ 
+}
+.f8 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+
+}
+.f9 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.f0 {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+
+}
+
+.backspace {
+    height: 65px;
+    width: 105px;  
+    border-radius: 5px;
+}
+
+.second__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.q {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.w {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.e {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.r{
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.t{
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.y {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.u {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.i {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.o {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.p {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+
+.third__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.a {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+
+.s{
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.d {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.f {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.g {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.h {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.j {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.k {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.l {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.enter {
+    height: 65px;
+    width: 105px;  
+    border-radius: 5px;
+}
+
+
+.forth__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.shift1{ 
+    height: 65px;
+    width: 100px;  
+    border-radius: 5px;
+}
+.shift2 {
+    height: 65px;
+    width: 100px;  
+    border-radius: 5px;
+}
+.z {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.x{
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.c {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.v{
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.b{
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.n {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.m {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.coma {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.point {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+.slesh {
+    height: 65px;
+    width: 65px;  
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.fifth__column {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.space {
+    width: 1250px;
+    height: 65px;
+    border-radius: 5px;
+}
