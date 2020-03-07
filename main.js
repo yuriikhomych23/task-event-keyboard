@@ -1,18 +1,35 @@
-// const buttons = document.querySelector('button');
+const firstColumn = document.querySelector('.first__column').children;
 
-// buttons.onclick = function() {
-//     console.log('click me!')
-// }
-
-
-getSel = x => document.querySelector(x);
-
-window.addEventListener('keydown', function(event) {
-    if(event.keyCode == 49) {
-        getSel('#area').innerText = getSel('.f1') + '1';
-    } 
-    if(event.keyCode == 50) {
-        getSel('#area').innerText = getSel('.f2') + '2';
+for (let i = 0, child; child = firstColumn[i]; i++) {
+     window.addEventListener('keydown', function(event) {
+        if(event.keyCode == 192) {
+            area.innerText = '`';
+        } else if (event.keyCode == 49) {
+            area.innerText = '1';
+        } else if(event.keyCode == 50) {
+            area.innerText = '2'
+        } else if(event.keyCode == 51) {
+            area.innerText = '3'
     }
-    // console.log(event)
 })
+}
+
+
+
+
+
+
+
+
+// const secondColumn = document.querySelector('.second__column').children;
+
+// for (let i = 0, child; child = secondColumn[i]; i++) {
+//     window.addEventListener('keydown', function(event) {
+//         if(event.keyCode == 81) {
+//             area.innerText = 'q'
+//         }
+//         if(event.keyCode == 87) {
+//             area.innerText = 'w'
+//         }
+//     })
+// }
